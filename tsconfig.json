@@ -7,12 +7,12 @@
     ],
     "allowJs": true,
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": "./server",
     "removeComments": true,
     "strict": true,
     "typeRoots": [
       "./node_modules/@types",
-      "./src/@types"
+      "./server/@types"
     ],
     "resolveJsonModule": true,
     "esModuleInterop": true,
@@ -20,5 +20,8 @@
     "emitDecoratorMetadata": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
-  }
+  },
+  "include": [
+    "./server/**/*"
+  ]
 }

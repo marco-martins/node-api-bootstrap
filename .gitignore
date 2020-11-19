@@ -47,3 +47,6 @@ Thumbs.db
 
 # App Files
 /src/config/local.env.ts
+
+# Request files
+/**/*.rest
